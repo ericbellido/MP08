@@ -120,11 +120,12 @@ nav ul {
 }
 
 .p2 ul {
-    margin-top: 50px;
+    margin-top: px;
 }
 
 .p2 {
     background-color: rgb(95,95,95);
+
 }
 .p2 li {
     width: 25vh;
@@ -179,10 +180,56 @@ nav ul {
 .icones {
     display: flex;
     gap: 15px;
-    width: 60px;
-    height: 60px;
-    line-height: 50px;
-    border: 5px solid #00d4ff;
-    margin: ;
+    width: 7 00px;
+    height: 100px;
+    line-height: 40px;
+    align-items: center;
     text-align: center;
+    cursor: pointer;
 }
+
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 320px;
+    height: 1000px;
+  }
+ 
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+ 
+  .footer .social-media {
+    margin-bottom: 15px;
+  }
+ 
+  .footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+ 
+  .footer .social-media a:hover {
+    color: #ff6347; 
+  }
+ 
+  .footer-info p {
+    margin: 5px 0;
+  }
+ 
+  .footer-info a {
+    color: #ff6347;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+ 
+  .footer-info a:hover {
+    color: #fff;
+  }
