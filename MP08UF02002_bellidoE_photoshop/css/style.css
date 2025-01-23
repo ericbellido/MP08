@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    background-color: #001834;
+    border-radius: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;
+    font-weight: bold;
+    color: #00a9ff;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 200px;
+    top: 50px;
+}
+
+.fil {
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    top: 40px;
+}
+
+.filtres, .fusions {
+    width: 850px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 40px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px 0 0 0;
+    background: #ddd;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.imatge {
+    width: 130px;
+    height: 150px;
+    background-image: url(../img/kiwi\ 2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+.superposada {
+    width: 130px;
+    height: 150px;
+    background-image: url(../img/pressec.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+  
+
+input {
+    width: 130px;
+    margin: auto;
+}
+
+/* ----filtres----*/
+
+.desenfoc .imatge {
+    filter: blur(5px);
+}
+
+.lluminositat .imatge {
+    filter: brightness(2);
+}
+
+.contrast .imatge {
+    filter:contrast(200%)
+}
+
+.ombra .imatge {
+    filter: drop-shadow(5px 5px 5px green);
+}
+
+.grisos .imatge {
+    filter:grayscale(80%)
+}
+
+.to-saturacio .imatge {
+    filter: hue-rotate(90deg);
+}
+
+.invertir .imatge {
+    filter: invert(75%);
+}
+
+.opacitat .imatge {
+    filter: opacity(50%)
+}
+
+.saturacio .imatge {
+    filter: saturate(200%);
+}
+
+.sepia .imatge {
+    filter: sepia(200%);
+}
+
+/* ----fusions----*/
+
+.multiplicar .superposada {
+    mix-blend-mode:multiply ;
+}

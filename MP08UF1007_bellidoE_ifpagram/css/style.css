@@ -1,0 +1,129 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    height: 166px;
+    background-color: lime;
+}
+
+nav {
+    height: 180px;
+
+}
+
+article {
+
+}
+
+.contenidor {
+    width: 1716px;
+    background-color:;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.entrada {
+    width: 536px;
+    height: 620px;
+    margin: 18px;
+    float: left;
+}
+
+img {
+    width: 536px;
+    height: 536px;
+}
+
+.reaccions {
+    height: 84px;   
+    overflow: hidden;
+}
+
+.cercle {
+    width: 80px;
+    height: 80px;
+    background-color: maroon;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 28px;
+    padding: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 5px orange;
+
+    background-image:url(../img/perfil.jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 80%;
+}
+
+.cercle:hover {
+opacity: 100%;
+}
+
+.fotoautor {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image:url(../img/perfil.jpg);
+    box-shadow: 0px 0px 5px orange;
+    margin: 13px;
+    background-size: 100%;
+    padding: 10px;
+    border: solid 5px white;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+}
+
+.autor {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.moment {
+    width: 180px;
+    color: gainsboro;
+    font-size: 20px;
+}
+
+.esquerra {
+width: 50%;
+margin-top: 0;
+float: left;
+}
+
+.dreta {
+width: 50%;
+margin: 0;
+float:right;
+}
+
+.comentari {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 22px;
+    width: 180px;
+    float: left;
+}
+
+.like {
+    height: 40px;
+    width: 40px;
+    float: left;
+
+}
+
+.mes {
+    height: 40px;
+    width: 40px;
+    float: left;
+    line-height: 30px;
+    font-weight: 700;
+}
+

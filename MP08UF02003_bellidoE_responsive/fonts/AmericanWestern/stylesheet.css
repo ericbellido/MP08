@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'American Western';
+    src: url('AmericanWestern.eot');
+    src: url('AmericanWestern.eot?#iefix') format('embedded-opentype'),
+        url('AmericanWestern.woff2') format('woff2'),
+        url('AmericanWestern.woff') format('woff'),
+        url('AmericanWestern.ttf') format('truetype'),
+        url('AmericanWestern.svg#AmericanWestern') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
