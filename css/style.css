@@ -10,6 +10,10 @@ html, body {
     font-style: normal;
 }
 
+nav:hover {
+    color: white;
+}
+
 nav {
     position: fixed;
     height: 50px;
@@ -37,17 +41,17 @@ h1 {
 }
 
 .nom {
-    margin-top: 235px;
+    margin-top: 375px;
     
 }
 
 .centre {
-    margin-top: 290px;
+    margin-top: 425px;
     font-size: 28px;
 }
 
 .mp08 {
-    margin-top: 330px;
+    margin-top: 460px;
     font-size: 15px;
 }
 
@@ -70,7 +74,7 @@ h1 {
 
 .pagina {
     position: relative;
-    height: 130%;
+    height: 100%;
 }
 
 .p1 {
@@ -141,6 +145,7 @@ nav ul {
     font-size: 30px;
     font-weight: 700;
     color: white;
+    box-shadow: 0 0 30px #00d4ff;
     
 
 }
@@ -178,14 +183,27 @@ nav ul {
 
 
 .icones {
-    display: flex;
-    gap: 15px;
+    display: block;
     width: 7 00px;
-    height: 100px;
+    height: 220px;
     line-height: 40px;
     align-items: center;
     text-align: center;
     cursor: pointer;
+    
+    
+}
+.icones img {
+    width: 90px;
+    height: 90px;
+    margin: 200px 15px;
+    box-shadow: 0 0 70px #00d4ff;
+    border-radius: 50%;
+      
+}
+
+.icones img:hover {
+    box-shadow: 0 0 200px #00d4ff
 }
 
 .footer {
@@ -195,7 +213,7 @@ nav ul {
     font-size: 14px;
     text-align: center;
     margin-top: 320px;
-    height: 1000px;
+    height: 500px;
   }
  
   .footer .container {
@@ -206,6 +224,7 @@ nav ul {
  
   .footer .social-media {
     margin-bottom: 15px;
+    color: #fff;
   }
  
   .footer .social-media a {
@@ -233,3 +252,89 @@ nav ul {
   .footer-info a:hover {
     color: #fff;
   }
+
+  @media (max-width: 768px) {
+    nav li {
+        font-size: 10px;
+        padding: 0 1px;
+        border: 1px solid #00d4ff;
+
+    }
+
+    .p1 img {
+        margin-top: 150px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .p1 h1 {
+        text-align: center;
+        align-items: center;
+    }
+
+    .nom {
+        font-size: 29px;
+        margin-top: -25px;
+    }
+
+    .centre {
+        font-size: 13px;    
+        padding-top: -100px;
+    }
+
+    .mp08 {
+        font-size: 10px;
+        margin: 26px;
+        text-align: center;
+        position: absolute;
+        display: block;
+    }
+
+    .p2 li {
+        width: 120px;
+        height: 120px;
+        font-size: 12px;
+        line-height: 100px;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 5px 0;
+        width: auto;
+    }
+
+    .p1 img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .p1 h1 {
+        font-size: 14px; 
+    }
+
+    .p2 ul {
+        flex-direction: column; 
+    }
+
+    .p2 li {
+        width: 90px;
+        height: 90px;
+        font-size: 10px;
+        line-height: 90px;
+    }
+
+    .icones img {
+        width: 200px;
+        height: 200px;
+    }
+}
