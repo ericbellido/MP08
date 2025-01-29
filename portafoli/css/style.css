@@ -10,10 +10,6 @@ html, body {
     font-style: normal;
 }
 
-nav:hover {
-    color: white;
-}
-
 nav {
     position: fixed;
     height: 50px;
@@ -104,7 +100,6 @@ h1 {
 }
 
 nav li {
-    
     color: #00d4ff;
     margin-top: 4px;
     display: inline-block; 
@@ -302,7 +297,7 @@ nav ul {
     }
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
     nav ul {
         flex-direction: column;
         align-items: center;
@@ -324,6 +319,9 @@ nav ul {
 
     .p2 ul {
         flex-direction: column; 
+        width: 50vh;
+        margin: 0 auto;
+        display: block;
     }
 
     .p2 li {
